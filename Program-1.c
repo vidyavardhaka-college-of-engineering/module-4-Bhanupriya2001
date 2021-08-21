@@ -2,20 +2,15 @@
 //Output: Sum of feet = 57
 
 //Program to add two distances (feet-inch)
-#include <stdio.h>
-struct Distance
-{
-    int feet;
-} dist1, dist2, sum;
+#include <iostream>
+#include <cmath>
+using namespace std;
 
 int main()
 {
-    printf("Enter feet  value for 1st and 2nd distance: ");
-    scanf("%d%d", &dist1.feet, &dist2.feet);
-    // adding feet
-    sum.feet = dist1.feet + dist2.feet;
-   
-
-    printf("Sum of feet = ",sum.feet);//Enter the missing code
-    return 0;
+double x = 10.25, res  ;//complete the declaration
+res =sqrt(x); //use the function with gives us the square root
+cout << res;
+return 0;
 }
+
